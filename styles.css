@@ -1,0 +1,36 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group input, .form-group select {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+/* Class Selector */
+.bg-light-blue {
+    background-color: #e7f3ff;
+}
+
+/* ID Selector */
+#main-content {
+    padding: 20px;
+    margin-top: 20px;
+}

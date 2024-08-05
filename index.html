@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="JQuery_script.js" defer></script>
+    <style>
+        /* Internal CSS for demo purposes */
+        .internal-style {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Student Registration Form</h1>
+        <form id="registration-form">
+            <!-- Form Fields -->
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course">
+            </div>
+            <div class="form-group">
+                <label for="enrollment-date">Enrollment Date:</label>
+                <input type="date" id="enrollment-date" name="enrollment-date">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" id="submit-btn">Register</button>
+        </form>
+        <div id="result"></div>
+        <button id="change-text-btn">Change Text</button>
+        <button id="delete-node-btn">Delete Text</button>
+        <div class="image-container">
+            <img id="image" src="default.jpg" alt="Default Image" width="200">
+        </div>        
+        <button id="change-image-btn">Change Image</button>
+        <nav>
+            <ul>
+                <li><a href="#registration-form">Register</a></li>
+                <li><a href="https://example.com" target="_blank">External Site</a></li>
+            </ul>
+        </nav>
+</body>
+</html>

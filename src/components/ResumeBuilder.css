@@ -1,0 +1,55 @@
+.resume-builder {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .resume-builder h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-builder form div {
+    margin-bottom: 15px;
+  }
+  
+  .resume-builder label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .resume-builder input,
+  .resume-builder textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resume-builder textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .resume-preview {
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #eaf5ea;
+  }
+  
+  .resume-preview p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .resume-preview strong {
+    font-weight: bold;
+  }
+  

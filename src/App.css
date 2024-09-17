@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #45a049;
+}
+
+.content {
+  padding: 20px;
+}
